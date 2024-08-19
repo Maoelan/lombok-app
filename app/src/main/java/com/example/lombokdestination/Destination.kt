@@ -10,8 +10,8 @@ data class Destination(
     val photo: Int,
     val location: String? = null,
     val coordinate: String? = null,
-    val activity: List<String>? = null,
-    val facility: List<String>? = null,
+    val activity: String? = null,
+    val facility: String? = null,
     val ticket: String? = null,
     val time: String? = null,
     val note: String? = null
