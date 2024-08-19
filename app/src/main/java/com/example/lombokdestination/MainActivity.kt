@@ -1,6 +1,7 @@
 package com.example.lombokdestination
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -39,5 +40,15 @@ class MainActivity : AppCompatActivity() {
         rvDestination.layoutManager = LinearLayoutManager(this)
         val listDestinationAdapter = ListDestinationAdapter(list)
         rvDestination.adapter = listDestinationAdapter
+        
+        listDestinationAdapter.setOnItemClickCallback(object : ListDestinationAdapter.OnItemClickCallback {
+            override fun onItemClicked(data: Destination) {
+                showSelectedDestination(data)
+            }
+        })
+    }
+
+    private fun showSelectedDestination(destination: Destination) {
+        Toast.makeText(this, destination.destination, Toast.LENGTH_SHORT).show()
     }
 }
