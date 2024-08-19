@@ -10,7 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="86dp" />
+        app:layout_constraintGuide_begin="93dp" />
 
     <TextView
         android:id="@+id/textView"
@@ -20,6 +20,8 @@
         android:layout_marginTop="8dp"
         android:text="@string/more_info"
         android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/md_theme_tertiaryContainer_highContrast"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -27,9 +29,8 @@
         android:id="@+id/tv_location_detail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,8 +42,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:text="@string/location"
+        android:textColor="@color/md_theme_tertiaryContainer_highContrast"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -50,9 +53,8 @@
         android:id="@+id/tv_coordinate_detail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -64,8 +66,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:text="@string/coordinate"
+        android:textColor="@color/md_theme_tertiaryContainer_highContrast"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_location_detail" />
 
@@ -74,8 +78,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:text="@string/activity"
+        android:textColor="@color/md_theme_tertiaryContainer_highContrast"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_coordinate" />
 
@@ -83,9 +89,8 @@
         android:id="@+id/tv_activity_detail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -97,8 +102,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:text="@string/facility"
+        android:textColor="@color/md_theme_tertiaryContainer_highContrast"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_activity_detail" />
 
@@ -106,9 +113,8 @@
         android:id="@+id/tv_facility_detail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -120,8 +126,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:text="@string/ticket"
+        android:textColor="@color/md_theme_tertiaryContainer_highContrast"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_facility" />
 
@@ -129,9 +137,8 @@
         android:id="@+id/tv_ticket_detail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -143,8 +150,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:text="@string/time"
+        android:textColor="@color/md_theme_tertiaryContainer_highContrast"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_ticket_detail" />
 
@@ -152,9 +161,8 @@
         android:id="@+id/tv_time_detail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -166,8 +174,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:text="@string/note"
+        android:textColor="@color/md_theme_tertiaryContainer_highContrast"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_time" />
 
@@ -175,9 +185,8 @@
         android:id="@+id/tv_note_detail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"

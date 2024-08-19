@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity() {
     private fun getListDestinations(): ArrayList<Destination> {
         val dataDestination = resources.getStringArray(R.array.destination_name)
         val dataOverview = resources.getStringArray(R.array.destination_overview)
+        val dataPhoto = resources.obtainTypedArray(R.array.destination_photo)
         val dataLocation = resources.getStringArray(R.array.destination_location)
         val dataCoordinate = resources.getStringArray(R.array.destination_coordinate)
         val dataActivity = resources.getStringArray(R.array.destination_activity)
@@ -34,7 +35,6 @@ class MainActivity : AppCompatActivity() {
         val dataTicket = resources.getStringArray(R.array.destination_ticket)
         val dataTime = resources.getStringArray(R.array.destination_time)
         val dataNote = resources.getStringArray(R.array.destination_note)
-        val dataPhoto = resources.obtainTypedArray(R.array.destination_photo)
         val listDestination = ArrayList<Destination>()
         for (i in dataDestination.indices) {
             val destination = Destination(

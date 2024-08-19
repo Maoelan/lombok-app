@@ -1,16 +1,43 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
     <style name="Base.Theme.LombokDestination" parent="Theme.Material3.DayNight">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/md_theme_tertiaryContainer_highContrast</item>
+        <item name="colorOnPrimary">@color/md_theme_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/md_theme_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_onSecondaryContainer</item>
     </style>
 
     <style name="Base.Theme.NoAction" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/md_theme_tertiaryContainer_highContrast</item>
+        <item name="colorOnPrimary">@color/md_theme_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/md_theme_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_onSecondaryContainer</item>
     </style>
 
-    <style name="Theme.LombokDestination" parent="Base.Theme.LombokDestination" />
+    <style name="Theme.LombokDestination" parent="Base.Theme.LombokDestination">
+        <item name="actionBarStyle">@style/CustomActionBar</item>
+        <item name="actionOverflowButtonStyle">@style/CustomActionOverflowButton</item>
+    </style>
+
+    <style name="CustomActionBar" parent="Widget.MaterialComponents.ActionBar.Solid">
+        <item name="background">@color/md_theme_tertiaryContainer_highContrast</item>
+        <item name="titleTextStyle">@style/ActionBarTitleText</item>
+    </style>
+
+    <style name="CustomActionOverflowButton" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/md_theme_onPrimary</item>
+    </style>
+
+    <style name="ActionBarTitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@color/md_theme_onPrimary</item>
+    </style>
 
     <style name="roundedImageView" parent="">
         <item name="cornerFamily">rounded</item>
