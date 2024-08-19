@@ -11,7 +11,7 @@
     <string name="activity">Aktivitas</string>
     <string name="facility">Fasilitas</string>
     <string name="ticket">Tiket Masuk</string>
-    <string name="time">Waktu Terbaik Berkunjung</string>
+    <string name="time">Waktu Terbaik</string>
     <string name="note">Catatan</string>
 
     <string-array name="destination_name">
