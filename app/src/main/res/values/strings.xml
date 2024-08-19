@@ -107,55 +107,55 @@
     </string-array>
 
     <string-array name="destination_facility">
-        <item>Area parkir, toilet, gazebo untuk istirahat.</item>
-        <item>Area parkir, tempat berkemah, pemandu lokal.</item>
-        <item>Homestay, bungalow, resort, restoran, kafe.</item>
-        <item>Resort, hotel, hostel, villa, restoran, bar.</item>
-        <item>Basecamp, pemandu, porter, area berkemah.</item>
-        <item>Area parkir, toilet, toko suvenir, ruang pertemuan.</item>
-        <item>Warung kecil, penyewaan payung dan tikar, area parkir.</item>
-        <item>Area parkir, warung makan, tempat istirahat.</item>
-        <item>Area parkir, toilet, warung makan.</item>
-        <item>Resort, hotel, homestay, restoran, kafe.</item>
+        <item>Parkir, toilet, gazebo.</item>
+        <item>Parkir, berkemah, pemandu.</item>
+        <item>Homestay, resort, restoran.</item>
+        <item>Resort, hotel, restoran.</item>
+        <item>Basecamp, pemandu, berkemah.</item>
+        <item>Parkir, toilet, suvenir, ruang.</item>
+        <item>Warung, sewa payung, parkir.</item>
+        <item>Parkir, warung, istirahat.</item>
+        <item>Parkir, toilet, warung.</item>
+        <item>Resort, homestay, restoran.</item>
     </string-array>
 
     <string-array name="destination_ticket">
-        <item>Rp 10.000 per orang.</item>
-        <item>Rp 15.000 per orang.</item>
-        <item>Tidak ada tiket khusus; biaya transportasi dan akomodasi bervariasi.</item>
-        <item>Tidak ada tiket khusus; biaya transportasi dan akomodasi bervariasi.</item>
-        <item>Rp 150.000 untuk wisatawan domestik, Rp 300.000 untuk wisatawan asing.</item>
+        <item>Rp 10.000/orang.</item>
+        <item>Rp 15.000/orang.</item>
+        <item>Biaya transportasi dan akomodasi.</item>
+        <item>Biaya transportasi dan akomodasi.</item>
+        <item>Rp 150.000 (domestik), Rp 300.000 (asing).</item>
         <item>Gratis.</item>
-        <item>Rp 5.000 per orang.</item>
+        <item>Rp 5.000/orang.</item>
         <item>Gratis.</item>
-        <item>Rp 10.000 per orang.</item>
+        <item>Rp 10.000/orang.</item>
         <item>Gratis.</item>
     </string-array>
 
     <string-array name="destination_time">
-        <item>Pagi hingga siang hari untuk menghindari keramaian.</item>
-        <item>Pagi hari untuk menyaksikan matahari terbit.</item>
-        <item>Sepanjang tahun, tetapi lebih baik di musim kemarau (April-September).</item>
-        <item>Sepanjang tahun, tetapi lebih baik di musim kemarau (April-September).</item>
-        <item>April hingga September (musim kemarau).</item>
-        <item>Pagi atau sore hari.</item>
-        <item>Sepanjang tahun, tetapi lebih baik di musim kemarau (April-September).</item>
-        <item>Pagi atau sore hari.</item>
-        <item>Pagi atau sore hari.</item>
-        <item>Sepanjang tahun, tetapi lebih baik di musim kemarau (April-September).</item>
+        <item>Pagi atau siang.</item>
+        <item>Pagi untuk matahari terbit.</item>
+        <item>Sepanjang tahun, musim kemarau terbaik.</item>
+        <item>Sepanjang tahun, musim kemarau terbaik.</item>
+        <item>April-September.</item>
+        <item>Pagi atau sore.</item>
+        <item>Sepanjang tahun, musim kemarau terbaik.</item>
+        <item>Pagi atau sore.</item>
+        <item>Pagi atau sore.</item>
+        <item>Sepanjang tahun, musim kemarau terbaik.</item>
     </string-array>
 
     <string-array name="destination_note">
-        <item>Siapkan fisik yang baik karena perjalanan menuju air terjun bisa menantang.</item>
-        <item>Bawa pakaian hangat karena suhu bisa sangat dingin di pagi hari.</item>
-        <item>Tidak ada kendaraan bermotor di pulau ini, transportasi utama adalah sepeda dan cidomo.</item>
-        <item>Siapkan diri untuk menikmati malam panjang dengan berbagai pesta pantai.</item>
-        <item>Bawa peralatan pendakian lengkap dan siapkan kondisi fisik sebelum mendaki.</item>
-        <item>Pakaian sopan dan tertutup wajib dikenakan saat memasuki area masjid.</item>
-        <item>Bawa makanan dan minuman sendiri karena fasilitas sangat terbatas.</item>
-        <item>Jangan memberi makan monyet secara langsung untuk menghindari agresivitas.</item>
-        <item>Gunakan alas kaki yang nyaman karena jalur menuju air terjun cukup licin.</item>
-        <item>Pilih akomodasi dekat pantai untuk menikmati pemandangan matahari terbenam.</item>
+        <item>Perjalanan menantang, siapkan fisik.</item>
+        <item>Bawa pakaian hangat, suhu dingin.</item>
+        <item>Transportasi: sepeda dan cidomo.</item>
+        <item>Pesta pantai sepanjang malam.</item>
+        <item>Bawa peralatan mendaki, siapkan fisik.</item>
+        <item>Pakaian sopan wajib di masjid.</item>
+        <item>Bawa bekal, fasilitas terbatas.</item>
+        <item>Hindari memberi makan monyet.</item>
+        <item>Gunakan alas kaki nyaman, jalur licin.</item>
+        <item>Pilih akomodasi dekat pantai.</item>
     </string-array>
 
 </resources>

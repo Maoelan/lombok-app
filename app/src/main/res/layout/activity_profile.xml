@@ -4,6 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/md_theme_tertiaryContainer_highContrast"
     tools:context=".AboutActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -31,7 +32,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:textStyle="bold"
-            android:textSize="16sp"
+            android:textSize="18sp"
+            android:textColor="@color/md_theme_onPrimary"
             android:text="@string/about_name"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -42,6 +44,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            android:textColor="@color/md_theme_onPrimary"
             android:text="@string/about_email"
             app:layout_constraintTop_toBottomOf="@id/aboutname"
             app:layout_constraintStart_toStartOf="parent"

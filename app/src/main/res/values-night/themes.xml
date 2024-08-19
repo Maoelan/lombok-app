@@ -1,14 +1,52 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
     <style name="Base.Theme.LombokDestination" parent="Theme.Material3.DayNight">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/md_theme_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/md_theme_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_onSecondaryContainer</item>
     </style>
 
-    <style name="Theme.LombokDestination" parent="Base.Theme.LombokDestination" />
+    <style name="Base.Theme.NoAction" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/md_theme_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/md_theme_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_onSecondaryContainer</item>
+    </style>
 
-    <style name="roundedImageView" parent="">
-        <item name="cornerFamily">rounded</item>
-        <item name="cornerSize">120dp</item>
+    <style name="Theme.LombokDestination" parent="Base.Theme.LombokDestination">
+        <item name="actionBarStyle">@style/CustomActionBar</item>
+    </style>
+
+    <style name="CustomActionBar" parent="Widget.MaterialComponents.ActionBar.Solid">
+        <item name="background">@color/md_theme_primary</item>
+        <item name="titleTextStyle">@style/ActionBarTitleText</item>
+    </style>
+
+    <style name="ActionBarTitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@color/md_theme_onPrimary</item>
+    </style>
+
+    <style name="Theme.LombokDestination.HighContrast" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/md_theme_primary_highContrast</item>
+        <item name="colorOnPrimary">@color/md_theme_onPrimary_highContrast</item>
+        <item name="colorPrimaryContainer">@color/md_theme_primaryContainer_highContrast</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_onPrimaryContainer_highContrast</item>
+        <item name="colorSecondary">@color/md_theme_secondary_highContrast</item>
+        <item name="colorOnSecondary">@color/md_theme_onSecondary_highContrast</item>
+        <item name="colorSecondaryContainer">@color/md_theme_secondaryContainer_highContrast</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_onSecondaryContainer_highContrast</item>
+        <item name="colorTertiary">@color/md_theme_tertiary_highContrast</item>
+        <item name="colorOnTertiary">@color/md_theme_onTertiary_highContrast</item>
+        <item name="colorTertiaryContainer">@color/md_theme_tertiaryContainer_highContrast</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_onTertiaryContainer_highContrast</item>
     </style>
 </resources>
