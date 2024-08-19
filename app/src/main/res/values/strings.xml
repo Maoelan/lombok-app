@@ -2,6 +2,9 @@
     <string name="app_name">Lombok Destination</string>
     <string name="destination_name">Destinasi</string>
     <string name="overview">Deskripsi</string>
+    <string name="profile">Profile</string>
+    <string name="about_name">Maulana Muhammad</string>
+    <string name="about_email">maulanamuhammad2000@gmail.com</string>
 
     <string-array name="destination_name">
         <item>Benang Kelambu</item>
