@@ -43,8 +43,8 @@ class MainActivity : AppCompatActivity() {
                 dataPhoto.getResourceId(i, -1),
                 dataLocation[i],
                 dataCoordinate[i],
-                dataActivity[i].split(", "),
-                dataFacility[i].split(", "),
+                dataActivity[i],
+                dataFacility[i],
                 dataTicket[i],
                 dataTime[i],
                 dataNote[i]

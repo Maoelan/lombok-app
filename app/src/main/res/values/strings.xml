@@ -2,6 +2,7 @@
     <string name="app_name">Lombok Destination</string>
     <string name="destination_name">Destinasi</string>
     <string name="overview">Deskripsi</string>
+    <string name="more_info">Info Lainnya</string>
     <string name="profile">Profile</string>
     <string name="about_name">Maulana Muhammad</string>
     <string name="about_email">maulanamuhammad2000@gmail.com</string>
@@ -11,7 +12,7 @@
     <string name="activity">Aktivitas</string>
     <string name="facility">Fasilitas</string>
     <string name="ticket">Tiket Masuk</string>
-    <string name="time">Waktu Terbaik</string>
+    <string name="time">Waktu Ideal</string>
     <string name="note">Catatan</string>
 
     <string-array name="destination_name">
