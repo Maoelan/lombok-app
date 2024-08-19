@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Lombok Destination</string>
+    <string name="destination_name">Destinasi</string>
+    <string name="overview">Deskripsi</string>
+
+    <string-array name="destination_name">
+        <item>Benang Kelambu</item>
+        <item>Bukit Pegasingan</item>
+        <item>Gili Air</item>
+        <item>Gili Trawangan</item>
+        <item>Gunung Rinjani</item>
+        <item>Islamic Center</item>
+        <item>Pantai Mawun</item>
+        <item>Pusuk</item>
+        <item>Sendang Gile</item>
+        <item>Senggigi</item>
+    </string-array>
+
+    <string-array name="destination_overview">
+        <item>Air terjun Belang Kelambu merupakan salah satu surga tersembunyi di Lombok yang menawarkan pemandangan air terjun bertingkat dengan aliran air yang lembut seperti kelambu. Terletak di kawasan hutan yang asri, tempat ini menjadi tujuan wisata yang sempurna bagi pecinta alam.</item>
+        <item>Bukit Pegasingan adalah destinasi favorit para pendaki yang ingin menikmati keindahan matahari terbit dengan pemandangan Gunung Rinjani sebagai latar belakang. Bukit ini menawarkan panorama alam yang menakjubkan dengan hamparan sawah dan lembah hijau yang memanjakan mata.</item>
+        <item>Gili Air adalah salah satu dari tiga pulau Gili yang terkenal di Lombok, menawarkan kombinasi sempurna antara pantai berpasir putih, air laut yang jernih, dan kehidupan bawah laut yang kaya. Tempat ini ideal untuk snorkeling, diving, atau sekadar bersantai di tepi pantai.</item>
+        <item>Gili Trawangan dikenal sebagai pulau terbesar dan paling ramai di antara tiga Gili, menawarkan kehidupan malam yang meriah serta pantai yang indah. Wisatawan dapat menikmati aktivitas seperti snorkeling, diving, hingga bersepeda mengelilingi pulau.</item>
+        <item>Gunung Rinjani merupakan gunung berapi aktif dan menjadi salah satu destinasi pendakian favorit di Indonesia. Dengan Danau Segara Anak yang berada di kawahnya, pendakian ke puncak Rinjani menawarkan pengalaman menantang sekaligus mempesona.</item>
+        <item>Islamic Center Mataram adalah masjid terbesar di Lombok yang juga menjadi pusat kegiatan keagamaan dan budaya. Dengan arsitektur yang megah dan menara tinggi yang ikonik, tempat ini menjadi salah satu landmark penting di Lombok.</item>
+        <item>Pantai Mawun menawarkan pemandangan pantai yang tenang dengan pasir putih yang lembut dan air laut berwarna biru toska. Terletak di Lombok Selatan, pantai ini cocok bagi mereka yang mencari ketenangan dan keindahan alam yang murni.</item>
+        <item>Pusuk Pass adalah kawasan hutan di ketinggian dengan jalan berkelok yang menawarkan pemandangan hutan tropis dan udara segar. Tempat ini juga dikenal sebagai habitat monyet yang sering berinteraksi dengan wisatawan.</item>
+        <item>Air Terjun Sendang Gile terletak di kawasan Taman Nasional Gunung Rinjani dan menjadi salah satu tempat wisata favorit bagi pendaki. Dengan aliran air yang deras dan suasana alam yang asri, Sendang Gile menawarkan pengalaman yang menyegarkan.</item>
+        <item>Pantai Senggigi adalah salah satu pantai paling terkenal di Lombok, menawarkan pemandangan matahari terbenam yang indah dan garis pantai yang panjang. Selain berenang dan bersantai, wisatawan dapat menikmati kuliner lokal di sepanjang pantai.</item>
+    </string-array>
+
+    <integer-array name="destination_photo">
+        <item>@drawable/benang_kelambu</item>
+        <item>@drawable/bukit_pegasingan</item>
+        <item>@drawable/gili_air</item>
+        <item>@drawable/gili_trawangan</item>
+        <item>@drawable/gunung_rinjani</item>
+        <item>@drawable/islamic_center</item>
+        <item>@drawable/pantai_mawun</item>
+        <item>@drawable/pusuk</item>
+        <item>@drawable/sendang_gile</item>
+        <item>@drawable/senggigi</item>
+    </integer-array>
+</resources>
