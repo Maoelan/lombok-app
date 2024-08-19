@@ -13,9 +13,12 @@
         android:theme="@style/Theme.LombokDestination"
         tools:targetApi="31">
         <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".AboutActivity"
             android:exported="false"
-            android:theme="@style/Base.Theme.NoAction"/>
+            android:theme="@style/Base.Theme.NoAction" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

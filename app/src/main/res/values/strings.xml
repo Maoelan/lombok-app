@@ -6,6 +6,14 @@
     <string name="about_name">Maulana Muhammad</string>
     <string name="about_email">maulanamuhammad2000@gmail.com</string>
 
+    <string name="location">Lokasi</string>
+    <string name="coordinate">Koordinat</string>
+    <string name="activity">Aktivitas</string>
+    <string name="facility">Fasilitas</string>
+    <string name="ticket">Tiket Masuk</string>
+    <string name="time">Waktu Terbaik</string>
+    <string name="note">Catatan</string>
+
     <string-array name="destination_name">
         <item>Benang Kelambu</item>
         <item>Bukit Pegasingan</item>
@@ -44,4 +52,109 @@
         <item>@drawable/sendang_gile</item>
         <item>@drawable/senggigi</item>
     </integer-array>
+
+    <string-array name="destination_title">
+        <item>Belang Kelambu: Air Terjun Eksotis di Lombok</item>
+        <item>Bukit Pegasingan: Spot Terbaik untuk Menikmati Sunrise</item>
+        <item>Gili Air: Pulau Tropis dengan Pesona Bawah Laut</item>
+        <item>Gili Trawangan: Pulau dengan Kehidupan Malam yang Hidup</item>
+        <item>Gunung Rinjani: Tantangan Menaklukkan Gunung Tertinggi di Lombok</item>
+        <item>Islamic Center Mataram: Ikon Keagamaan dan Budaya di Lombok</item>
+        <item>Pantai Mawun: Keindahan Tersembunyi di Selatan Lombok</item>
+        <item>Pusuk: Menikmati Keindahan Alam dan Udara Segar di Ketinggian</item>
+        <item>Sendang Gile: Air Terjun Menakjubkan di Kaki Gunung Rinjani</item>
+        <item>Senggigi: Destinasi Pantai Terkenal dengan Pesona Sunset</item>
+    </string-array>
+
+    <string-array name="destination_location">
+        <item>Desa Benang Stokel, Kecamatan Batukliang Utara, Kabupaten Lombok Tengah</item>
+        <item>Desa Sembalun, Kecamatan Sembalun, Kabupaten Lombok Timur</item>
+        <item>Kepulauan Gili, Kabupaten Lombok Utara</item>
+        <item>Kepulauan Gili, Kabupaten Lombok Utara</item>
+        <item>Taman Nasional Gunung Rinjani, Kabupaten Lombok Utara</item>
+        <item>Jalan Udayana, Kota Mataram, Lombok</item>
+        <item>Desa Tumpak, Kecamatan Pujut, Kabupaten Lombok Tengah</item>
+        <item>Pusuk Pass, perbatasan Lombok Barat dan Lombok Utara</item>
+        <item>Desa Senaru, Kecamatan Bayan, Kabupaten Lombok Utara</item>
+        <item>Kecamatan Batu Layar, Kabupaten Lombok Barat</item>
+    </string-array>
+
+    <string-array name="destination_coordinate">
+        <item>-8.520093, 116.404448</item>
+        <item>-8.401859, 116.552734</item>
+        <item>-8.358225, 116.077352</item>
+        <item>-8.350744, 116.041168</item>
+        <item>-8.421931, 116.457157</item>
+        <item>-8.583118, 116.112591</item>
+        <item>-8.889087, 116.234589</item>
+        <item>-8.462284, 116.197234</item>
+        <item>-8.336478, 116.400780</item>
+        <item>-8.477564, 116.045899</item>
+    </string-array>
+
+    <string-array name="destination_activity">
+        <item>Trekking ringan, fotografi, berenang di kolam alami, menikmati pemandangan alam.</item>
+        <item>Mendaki, berkemah, menikmati pemandangan, fotografi.</item>
+        <item>Snorkeling, diving, berjemur, bersepeda keliling pulau.</item>
+        <item>Snorkeling, diving, bersepeda, menikmati kehidupan malam.</item>
+        <item>Pendakian, berkemah, melihat kawah, mandi air panas.</item>
+        <item>Beribadah, wisata religi, menikmati arsitektur, naik ke menara untuk melihat pemandangan kota.</item>
+        <item>Berenang, berjemur, berjalan di sepanjang pantai, fotografi.</item>
+        <item>Menikmati pemandangan, berinteraksi dengan monyet, fotografi.</item>
+        <item>Trekking ringan, fotografi, berenang di kolam air terjun.</item>
+        <item>Berenang, snorkeling, bersantai di pantai, menikmati kuliner lokal.</item>
+    </string-array>
+
+    <string-array name="destination_facility">
+        <item>Area parkir, toilet, gazebo untuk istirahat.</item>
+        <item>Area parkir, tempat berkemah, pemandu lokal.</item>
+        <item>Homestay, bungalow, resort, restoran, kafe.</item>
+        <item>Resort, hotel, hostel, villa, restoran, bar.</item>
+        <item>Basecamp, pemandu, porter, area berkemah.</item>
+        <item>Area parkir, toilet, toko suvenir, ruang pertemuan.</item>
+        <item>Warung kecil, penyewaan payung dan tikar, area parkir.</item>
+        <item>Area parkir, warung makan, tempat istirahat.</item>
+        <item>Area parkir, toilet, warung makan.</item>
+        <item>Resort, hotel, homestay, restoran, kafe.</item>
+    </string-array>
+
+    <string-array name="destination_ticket">
+        <item>Rp 10.000 per orang.</item>
+        <item>Rp 15.000 per orang.</item>
+        <item>Tidak ada tiket khusus; biaya transportasi dan akomodasi bervariasi.</item>
+        <item>Tidak ada tiket khusus; biaya transportasi dan akomodasi bervariasi.</item>
+        <item>Rp 150.000 untuk wisatawan domestik, Rp 300.000 untuk wisatawan asing.</item>
+        <item>Gratis.</item>
+        <item>Rp 5.000 per orang.</item>
+        <item>Gratis.</item>
+        <item>Rp 10.000 per orang.</item>
+        <item>Gratis.</item>
+    </string-array>
+
+    <string-array name="destination_time">
+        <item>Pagi hingga siang hari untuk menghindari keramaian.</item>
+        <item>Pagi hari untuk menyaksikan matahari terbit.</item>
+        <item>Sepanjang tahun, tetapi lebih baik di musim kemarau (April-September).</item>
+        <item>Sepanjang tahun, tetapi lebih baik di musim kemarau (April-September).</item>
+        <item>April hingga September (musim kemarau).</item>
+        <item>Pagi atau sore hari.</item>
+        <item>Sepanjang tahun, tetapi lebih baik di musim kemarau (April-September).</item>
+        <item>Pagi atau sore hari.</item>
+        <item>Pagi atau sore hari.</item>
+        <item>Sepanjang tahun, tetapi lebih baik di musim kemarau (April-September).</item>
+    </string-array>
+
+    <string-array name="destination_note">
+        <item>Siapkan fisik yang baik karena perjalanan menuju air terjun bisa menantang.</item>
+        <item>Bawa pakaian hangat karena suhu bisa sangat dingin di pagi hari.</item>
+        <item>Tidak ada kendaraan bermotor di pulau ini, transportasi utama adalah sepeda dan cidomo.</item>
+        <item>Siapkan diri untuk menikmati malam panjang dengan berbagai pesta pantai.</item>
+        <item>Bawa peralatan pendakian lengkap dan siapkan kondisi fisik sebelum mendaki.</item>
+        <item>Pakaian sopan dan tertutup wajib dikenakan saat memasuki area masjid.</item>
+        <item>Bawa makanan dan minuman sendiri karena fasilitas sangat terbatas.</item>
+        <item>Jangan memberi makan monyet secara langsung untuk menghindari agresivitas.</item>
+        <item>Gunakan alas kaki yang nyaman karena jalur menuju air terjun cukup licin.</item>
+        <item>Pilih akomodasi dekat pantai untuk menikmati pemandangan matahari terbenam.</item>
+    </string-array>
+
 </resources>
