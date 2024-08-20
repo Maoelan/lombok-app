@@ -27,7 +27,7 @@ class DetailActivity : AppCompatActivity() {
         val timeTextView: TextView = findViewById(R.id.tv_time_detail)
         val noteTextView: TextView = findViewById(R.id.tv_note_detail)
 
-        val destination = intent.getParcelableExtra<Destination>(EXTRA_DESTINATION)
+        val destination: Destination? = intent.parcelable(EXTRA_DESTINATION)
 
         destination?.let {
             imageView.setImageResource(it.photo)
@@ -42,8 +42,8 @@ class DetailActivity : AppCompatActivity() {
             noteTextView.text = it.note
         }
 
-        val btnShare:Button = findViewById(R.id.btn_share)
-        btnShare.setOnClickListener{
+        val btnShare: Button = findViewById(R.id.btn_share)
+        btnShare.setOnClickListener {
             val shareText = """
                 Destination: ${destination?.destination}
                 Overview: ${destination?.overview}
