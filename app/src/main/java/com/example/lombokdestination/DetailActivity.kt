@@ -1,7 +1,9 @@
 package com.example.lombokdestination
+import android.content.Intent
 import com.example.lombokdestination.Destination
 
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
@@ -38,6 +40,29 @@ class DetailActivity : AppCompatActivity() {
             ticketTextView.text = it.ticket
             timeTextView.text = it.time
             noteTextView.text = it.note
+        }
+
+        val btnShare:Button = findViewById(R.id.btn_share)
+        btnShare.setOnClickListener{
+            val shareText = """
+                Destination: ${destination?.destination}
+                Overview: ${destination?.overview}
+                Location: ${destination?.location}
+                Coordinate: ${destination?.coordinate}
+                Activity: ${destination?.activity}
+                Facility: ${destination?.facility}
+                Ticket Info: ${destination?.ticket}
+                Time: ${destination?.time}
+                Note: ${destination?.note}
+            """.trimIndent()
+
+            val shareIntent = Intent().apply {
+                action = Intent.ACTION_SEND
+                putExtra(Intent.EXTRA_TEXT, shareText)
+                type = "text/plain"
+            }
+
+            startActivity(Intent.createChooser(shareIntent, "Share via"))
         }
     }
 

@@ -14,6 +14,7 @@
     <string name="ticket">Tiket Masuk</string>
     <string name="time">Waktu Ideal</string>
     <string name="note">Catatan</string>
+    <string name="share">Bagikan</string>
 
     <string-array name="destination_name">
         <item>Benang Kelambu</item>
